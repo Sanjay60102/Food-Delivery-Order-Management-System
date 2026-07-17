@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FoodDelivery.Api</name>
+    </assembly>
+    <members>
+        <member name="M:FoodDelivery.Api.Controllers.OrdersController.GetAllAsync(System.Threading.CancellationToken)">
+            <summary>
+            Retrieves all orders.
+            </summary>
+        </member>
+        <member name="M:FoodDelivery.Api.Controllers.OrdersController.GetByIdAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves an order by its unique identifier.
+            </summary>
+        </member>
+        <member name="M:FoodDelivery.Api.Controllers.OrdersController.SearchAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Searches orders using a keyword.
+            </summary>
+        </member>
+        <member name="M:FoodDelivery.Api.Controllers.OrdersController.CreateAsync(FoodDelivery.Api.Models.Order,System.Threading.CancellationToken)">
+            <summary>
+            Creates a new order.
+            </summary>
+        </member>
+        <member name="M:FoodDelivery.Api.Controllers.OrdersController.UpdateAsync(System.Int32,FoodDelivery.Api.Models.Order,System.Threading.CancellationToken)">
+            <summary>
+            Updates an existing order.
+            </summary>
+        </member>
+        <member name="M:FoodDelivery.Api.Controllers.OrdersController.UpdateStatusAsync(System.Int32,FoodDelivery.Api.Models.OrderStatus,System.Threading.CancellationToken)">
+            <summary>
+            Updates the status of an order.
+            </summary>
+        </member>
+        <member name="M:FoodDelivery.Api.Controllers.OrdersController.DeleteAsync(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Deletes an order by its identifier.
+            </summary>
+        </member>
+        <member name="M:FoodDelivery.Api.Controllers.OrdersController.GetSummaryAsync(System.Threading.CancellationToken)">
+            <summary>
+            Retrieves the dashboard summary for orders.
+            </summary>
+        </member>
+    </members>
+</doc>
